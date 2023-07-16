@@ -85,3 +85,23 @@ p{
     
 }
 
+@media (max-width:991px){
+
+    .titulo{
+        text-align: center;
+        margin-left: 35%;
+    }
+    .caja1{
+        margin-right: 30px;
+        margin-left: 350px;
+    }
+
+    .caja3{
+        width: 51%;
+        margin-top: 30px;
+        margin-left: 360px;
+    }
+    #yellow{
+        margin-left: 80%;
+    }
+}
