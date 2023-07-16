@@ -85,7 +85,7 @@ p{
     
 }
 
-@media (max-width:991px){
+@media (min-width:769px) and (max-width:991px){
 
     .titulo{
         text-align: center;
@@ -104,4 +104,26 @@ p{
     #yellow{
         margin-left: 80%;
     }
+}
+
+@media(max-width:768px){
+    .caja1{
+        margin-right: 300px;
+        margin-left: 500px;
+    }
+
+    .caja2{
+        margin-right: 300px;
+        margin-left: 500px;
+        margin-top: 20px;
+    }
+
+    .caja3{
+        width: 25%;
+        height: 30%;
+        margin-right: 300px;
+        margin-left: 500px;
+        margin-top: 20px;
+    }
+
 }
